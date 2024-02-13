@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap");
 @font-face {
   font-family: "clash-display-regular";
   src: url("/public/assets/fonts/ClashDisplay-Regular.otf");
@@ -14,6 +15,7 @@
 
 body {
   background-color: #0d1010;
+  scroll-behavior: smooth !important;
 }
 
 /* NAV-BAR TOGGLE ANIMATION */
@@ -110,11 +112,25 @@ body {
   }
 }
 
-/* HERO HEADING */
+/* SEO CARDS */
 
-/* .hero_heading_agency {
-  background: linear-gradient(180deg, #05010b 0%, rgba(5, 1, 12, 0.68) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+.seo_card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  clip-path: polygon(5% 0%, 95% 0, 100% 100%, 0% 100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+.seo_card:hover::after {
+  opacity: 1;
+}
+
+.seo_card:hover p {
+  color: black;
+}

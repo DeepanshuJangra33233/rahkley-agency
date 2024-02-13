@@ -14,7 +14,8 @@ module.exports = {
       fontFamily: {
         "clash-display-regular": ["clash-display-regular", "sans-serif"],
         "clash-display-semibold": ["clash-display-semibold", "sans-serif"],
-        "plus-jakarta": ["Plus Jakarta Sans", "sans - serif"],
+        "plus-jakarta": ["Plus Jakarta Sans", "sans-serif"],
+        "manrope": ["Manrope", "sans-serif"],
       },
       colors: {
         neutralWhite: "#FFFDFF",
@@ -38,6 +39,8 @@ module.exports = {
           "linear-gradient(180deg, #FFFDFF 0%, rgba(255, 253, 255, 0.86) 67.19%, rgba(255, 253, 255, 0.58) 100%)",
         headingBlackGradient:
           "linear-gradient(180deg, #05010b 0%, rgba(5, 1, 12, 0.68) 100%)",
+        reviewCard: "url('/assets/images/webp/review_card_background.webp')",
+        project: "url('/assets/images/webp/project_background.webp')",
       },
     },
   },

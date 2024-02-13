@@ -1,5 +1,5 @@
 import React from "react";
-import { helperCompanies } from "./common/Helper";
+import { workingWithCompaniesList } from "./common/Helper";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -31,7 +31,7 @@ const Marketing = () => {
         </div>
         <div className="flex justify-center sm:justify-start">
           <div className="max-w-[380px] flex justify-center sm:justify-start flex-wrap gap-[29px]">
-            {helperCompanies.map((value, index) => (
+            {workingWithCompaniesList.map((value, index) => (
               <Link href="" key={index}>
                 <Image
                   className={`max-w-[${value.width}px]`}

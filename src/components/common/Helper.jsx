@@ -5,7 +5,8 @@ import cisco from "../../../public/assets/images/png/cisco_logo.png";
 import purdue from "../../../public/assets/images/png/purdueuni_logo.png";
 import hewlettPackard from "../../../public/assets/images/png/hewlett_packard_logo.png";
 import chainguard from "../../../public/assets/images/png/chainguard_logo.png";
-export const helperCompanies = [
+import { DiscordIcon, SlackLogo, TelegramLogo, TwitterIcon } from "./Icons";
+export const workingWithCompaniesList = [
   {
     image: google,
     alternative: "google",
@@ -48,4 +49,19 @@ export const helperCompanies = [
     width: 169.088,
     height: 34.966,
   },
+];
+
+export const seoTitleList = [
+  { title: "SEO Specialty" },
+  { title: "Page Speed Optimization" },
+  { title: "Google Analytics" },
+  { title: "Off-page Optimization" },
+  { title: "On-page Optimization" },
+];
+
+export const footerIcons = [
+  { icon: <TwitterIcon /> },
+  { icon: <DiscordIcon /> },
+  { icon: <SlackLogo /> },
+  { icon: <TelegramLogo /> },
 ];
