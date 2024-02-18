@@ -10,8 +10,9 @@ const Footer = () => {
       <div className="flex gap-[18px] items-center order-2 md:order-1 mt-3 md:mt-0">
         {footerIcons.map((value, index) => (
           <Link
-            href="/"
+            href={value.link}
             key={index}
+            target="_blank"
             className="hover:-translate-y-1 duration-300"
           >
             {value.icon}

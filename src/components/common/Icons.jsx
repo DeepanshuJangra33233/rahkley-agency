@@ -251,3 +251,23 @@ export const TelegramLogo = () => (
     />
   </svg>
 );
+
+// WHITE RIGHT ARROW
+export const WhiteRightArrow = () => (
+  <svg
+    width="17"
+    height="17"
+    viewBox="0 0 17 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M11.1572 4.12402H8.15723L11.4906 8.79069L8.15723 13.4574H11.1572L14.4906 8.79069L11.1572 4.12402Z"
+      fill="#FFFDFF"
+    />
+    <path
+      d="M6.49121 4.12402H3.49121L6.82454 8.79069L3.49121 13.4574H6.49121L9.82454 8.79069L6.49121 4.12402Z"
+      fill="#FFFDFF"
+    />
+  </svg>
+);

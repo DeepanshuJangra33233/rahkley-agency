@@ -8,7 +8,7 @@ const Project = () => {
         <div className="flex items-center flex-col md:flex-row md:pt-0 pt-10">
           <div className="md:max-w-[400px] lg:max-w-[582px] md:pt-[147px] pb-6 sm:pb-10 md:pb-[120px] lg:pb-[170px] xl:pb-[220px] text-center md:text-start px-3">
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-semibold font-clash-display-semibold xl:leading-[108px] text-neutralWhite stroke stroke-neutralWhite">
-              Have a <span className="">project </span>in mind?
+              Have a <span className="text_stroke">project </span>in mind?
             </h2>
             <button
               className="text-neutralWhite mt-[28px] text-base font-semibold font-plus-jakarta opacity-80 py-3 px-6 border-white border-2 hover:bg-white
