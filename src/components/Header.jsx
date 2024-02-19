@@ -22,7 +22,7 @@ const Header = () => {
             <Logo /> {/* Rendering Logo component */}
           </Link>
           <div
-            className={`flex flex-col sm:flex-row items-center duration-300 gap-6 lg:gap-16 absolute sm:static bg-black sm:bg-transparent w-full  top-0 min-h-screen sm:min-h-full justify-center sm:justify-end ${
+            className={`flex flex-col  z-30 sm:flex-row items-center duration-300 gap-6 lg:gap-16 absolute sm:static bg-black sm:bg-transparent w-full  top-0 min-h-screen sm:min-h-full justify-center sm:justify-end ${
               isActive ? "left-0" : "-left-full"
             }`}
           >
@@ -44,7 +44,7 @@ const Header = () => {
           </div>
           {/* Navbar toggle button for smaller screens */}
           <div
-            className={`sm:hidden flex flex-col gap-1 cursor-pointer navTrigger z-10 ${
+            className={`sm:hidden flex flex-col gap-1 cursor-pointer navTrigger relative z-40 ${
               isActive ? "active" : ""
             }`}
             onClick={toggleNavbar}

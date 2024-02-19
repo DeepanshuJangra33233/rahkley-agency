@@ -30,7 +30,7 @@ const Marketing = () => {
       },
     });
     tl1.fromTo(".section1", { opacity: 1 }, { opacity: 0 });
-    tl2.fromTo(".section1", { opacity: 1 }, { opacity: 0 });
+    tl2.fromTo(".section2", { opacity: 1 }, { opacity: 0 });
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };

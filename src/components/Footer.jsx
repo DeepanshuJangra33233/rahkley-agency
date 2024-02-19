@@ -20,7 +20,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="mb-[11px] flex flex-col justify-center gap-[18px] order-1 md:order-2">
-        <Link href="/">
+        <Link href="/" className="max-w-[100px] mx-auto">
           <Logo />
         </Link>
         <p className="text-sm font-normal opacity-80 text-neutralWhite font-manrope">

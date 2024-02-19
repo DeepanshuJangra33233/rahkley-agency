@@ -35,6 +35,7 @@ module.exports = {
       },
       backgroundImage: {
         header: "url('/assets/images/webp/hero_background.webp')",
+        marketing: "url('/assets/images/webp/online_marketing.webp')",
         topBlackShadow:
           "linear-gradient(180deg, rgba(13, 16, 16, 0.00) 0%, #0D1010 100%)",
         bottomBlackShadow:
@@ -43,6 +44,7 @@ module.exports = {
           "linear-gradient(180deg, #FFFDFF 0%, rgba(255, 253, 255, 0.86) 67.19%, rgba(255, 253, 255, 0.58) 100%)",
         headingBlackGradient:
           "linear-gradient(180deg, #05010b 0%, rgba(5, 1, 12, 0.68) 100%)",
+        orangeButton: "linear-gradient(135deg, #F24405 0%, #F27406 95.74%)",
         reviewCard: "url('/assets/images/webp/review_card_background.webp')",
         marketingSeo: "url('/assets/images/webp/marketing_seo_bg.webp')",
         project: "url('/assets/images/webp/project_background.webp')",

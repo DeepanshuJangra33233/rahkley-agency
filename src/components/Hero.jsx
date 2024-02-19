@@ -44,14 +44,14 @@ const Hero = () => {
         {
           yPercent: -200,
         },
-        { yPercent: 0, opacity: 1 },
+        { yPercent: 0, xPercent: 0, opacity: 1 },
         "<"
       );
   }, []);
   return (
     <div className="flex grow items-center justify-center px-3 relative py-[100px] md:pt-0 sm:pb-32">
       <Image
-        className="right-1/2 middle-knifes translate-x-1/2 bottom-[-100px] sm:bottom-[-167px] absolute max-w-[45px] z-10 sm:max-w-[75px] knifes opacity-0"
+        className="right-[50%] sm:right-1/2 middle-knifes translate-x-1/2 bottom-[-100px] sm:bottom-[-167px] absolute max-w-[45px] z-10 sm:max-w-[75px] knifes opacity-0"
         src="/assets/images/png/knife.png"
         width={75}
         height={245}
@@ -71,7 +71,7 @@ const Hero = () => {
         height={114.77}
         alt="curved knife"
       />
-      <h1 className="heading font-clash-display-semibold opacity-0 font-semibold capitalize bg-headingWhiteGradient !leading-160 bg-clip-text text-4xl xsm:text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xxl text-transparent">
+      <h1 className="heading font-clash-display-semibold opacity-0 font-semibold capitalize bg-headingWhiteGradient sm:!leading-160 bg-clip-text text-4xl xsm:text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-9xxl text-transparent">
         Rahkley{" "}
         <span className="bg-headingBlackGradient bg-clip-text text-transparent">
           Agency

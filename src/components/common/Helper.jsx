@@ -92,3 +92,27 @@ export const blogList = [
     title: "Nibh lorem porttitor iaculis at dui sed senectus.",
   },
 ];
+
+// HELPER FORM
+export const sendMessageFields = [
+  {
+    type: "text",
+    label: "Full Name",
+    id: "name",
+  },
+  {
+    type: "Email ",
+    label: "Email",
+    id: "email",
+  },
+  {
+    type: "text",
+    label: "Company",
+    id: "company",
+  },
+  {
+    type: "text",
+    label: "Description",
+    id: "description",
+  },
+];

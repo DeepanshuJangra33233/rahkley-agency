@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Seo = () => {
   return (
-    <div className="min-h-screen bg-[#0d1010] relative flex items-center container mx-auto xl:max-w-[1140px] px-3 py-[50px]">
+    <div className="sm:min-h-screen bg-[#0d1010] relative flex items-center container mx-auto xl:max-w-[1140px] px-3 py-[50px]">
       <div className="w-full relative">
         <Image
           className="absolute top-1/2 -right-0 lg:right-0 -translate-y-1/2 max-w-[340px] lg:max-w-[430px] xl:max-w-[480px] w-full hidden md:block z-20"

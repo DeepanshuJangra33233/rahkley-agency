@@ -42,11 +42,8 @@ const Blog = () => {
           }}
         >
           {blogList.map((value, index) => (
-            <SwiperSlide>
-              <div
-                key={index}
-                className="mt-5 w-full hover:translate-y-[-5px] duration-300"
-              >
+            <SwiperSlide key={index}>
+              <div className="mt-5 w-full hover:translate-y-[-5px] duration-300">
                 <div className="bg-[rgba(11,_2,_24,_0.20)]">
                   <Image
                     className="w-full"
@@ -59,7 +56,7 @@ const Blog = () => {
                     <h3 className="text-2xl font-clash-display-semibold text-end bg-headingWhiteGradient bg-clip-text text-transparent font-semibold max-w-[300px]">
                       {value.title}
                     </h3>
-                    <button className="text-2xl font-clash-display-semibold bg-headingWhiteGradient bg-clip-text text-transparent font-semibold mt-[38px] flex items-center">
+                    <button className="text-2xl font-clash-display-semibold bg-headingWhiteGradient hover:opacity-70 duration-300 bg-clip-text text-transparent font-semibold mt-5 md:mt-[38px] flex items-center">
                       <span className="me-[9px]">
                         <WhiteRightArrow />
                       </span>
